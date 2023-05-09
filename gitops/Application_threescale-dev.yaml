@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: 3scale/overlays/dev
-    repoURL: https://gitlab.consulting.redhat.com/jugar_zone/3scale-gitops.git
+    repoURL: https://github.com/msakho/3scale-gitops-1.git
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
