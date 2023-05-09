@@ -8,7 +8,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: 3scale/overlays/dev
+    path: 3scale/app
     repoURL: https://github.com/msakho/3scale-gitops-1.git
     targetRevision: HEAD
   syncPolicy:
