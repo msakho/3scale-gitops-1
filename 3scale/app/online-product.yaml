@@ -1,0 +1,11 @@
+apiVersion: capabilities.3scale.net/v1beta1
+kind: Product
+metadata:
+  name: onlineproduct
+spec:
+  name: OnlineProduct 
+  providerAccountRef:
+    name: 3scale-admin-dev-secret
+  backendUsages:
+    cart_backend:
+      path: /carts
