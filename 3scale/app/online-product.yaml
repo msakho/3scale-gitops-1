@@ -3,7 +3,7 @@ kind: Product
 metadata:
   name: onlineproduct
 spec:
-  name: OnlineProduct 
+  name: OnlineProductChanged
   providerAccountRef:
     name: 3scale-admin-dev-secret
   backendUsages:
