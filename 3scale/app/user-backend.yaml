@@ -1,9 +1,9 @@
 apiVersion: capabilities.3scale.net/v1beta1
 kind: Backend
 metadata:
-  name: userbackend
+  name: user_backend
 spec:
-  name: User Backend
+  name: UserBackend
   privateBaseURL: 'https://fakestoreapi.com/users'
   systemName: user_backend
   providerAccountRef:
