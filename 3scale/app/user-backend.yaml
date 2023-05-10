@@ -3,7 +3,7 @@ kind: Backend
 metadata:
   name: userbackend1
 spec:
-  name: UserBackend
+  name: UserBackend1
   privateBaseURL: 'https://fakestoreapi.com/users'
   systemName: user_backend
   providerAccountRef:
