@@ -3,7 +3,7 @@ kind: Backend
 metadata:
   name: cartbackend1
 spec:
-  name: Cartbackend
+  name: Cartbackend1
   privateBaseURL: 'https://fakestoreapi.com'
   systemName: cart_backend
   providerAccountRef:
