@@ -7,5 +7,5 @@ spec:
   providerAccountRef:
     name: 3scale-admin-dev-secret
   backendUsages:
-    cart_backend:
+    cart_backendbis:
       path: /carts
