@@ -1,10 +1,10 @@
 apiVersion: capabilities.3scale.net/v1beta1
 kind: Backend
 metadata:
-  name: cartbackend1
+  name: cartbackendbis
 spec:
-  name: Cartbackend1
+  name: Cartbackendbis
   privateBaseURL: 'https://fakestoreapi.com'
-  systemName: cart_backend
+  systemName: cart_backendbis
   providerAccountRef:
     name: 3scale-admin-dev-secret
